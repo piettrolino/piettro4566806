@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />  <!-- importei umas bibliotecas para inserir icons nas barras de contato.-->
+</head>
+<style> 
+    h2{ 
+        text-align: center;
+        font-size: 35px;
+        color: dimgray;
+        display: block;
+        border: solid 2px;
+        border-radius: 3px;
+    }
+
+    .contatos{
+        text-align: center;
+        color: dimgray;
+        display: block;
+        border: 3px;
+        border-radius: 3px;
+        background-color: #f1f1f1;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+
+
+    }
+    .atalhos:hover{
+        background-color: dimgray;
+       color: #f1f1f1;
+        }
+    .atalhos{
+        border:solid 2px;
+        margin: 0 auto;
+        border-radius: 3px 3px;
+        display: block;
+        background-color: #f1f1f1;
+        text-decoration: none;
+        color: dimgray;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #linkedin{
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        background-color: #f1f1f1;
+        color: dimgray;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #linkedin:hover{
+        background-color: dimgray;
+        color:#f1f1f1;
+    }
+</style>
+<body>
+    <h2>Contato</h2>
+    <div>
+        <a class="contatos"><span class="material-symbols-outlined"> 
+            mail
+            </span>piettrolinolorenzon@gmail.com</a>
+       <br>
+        <a class="contatos"><span class="material-symbols-outlined">
+            call
+            </span>+55(13)99790-9845 Telefone e WhatsApp   </a>
+            <br>
+            <a id="linkedin"  href="https://www.linkedin.com/in/piettro-lorenzon-182b96300/"><span class="material-symbols-outlined"> <!-- aqui mostra a palavra que eu inseri "linkedin" e antes vem uma tag, que da pra copiar direto na pag do material icons do google.-->
+                link
+                </span>linkedin</a>
+    </div>
+    <br><br><br>
+
+    <div id="blocomain">
+        <a href = 'index.html' class="atalhos", id="pag1">Página Inicial</a> <!-- aqui eu conpiei a msm estrutura da primeira pag para ter opções de navegar para outras págs sem precisar voltar pelo navegador ou então ter que voltar a primeira pag pra entar acessar outra.-->
+        <a href = 'mim.html' class="atalhos", id="mim">Sobre Mim</a> 
+        <a href = 'formacoes.html' class="atalhos", id="formacoes">Formações</a>
+        <a href = 'projetos.html' class="atalhos", id="projeto">Projetos</a>
+    </div>
+</body>
+</html>
