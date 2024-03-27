@@ -83,5 +83,12 @@
         <a href = 'formacoes.html' class="atalhos", id="formacoes">Formações</a>
         <a href = 'projetos.html' class="atalhos", id="projeto">Projetos</a>
     </div>
+    <script>
+        const linkedin = document.getElementById("linkedin"); 
+        linkedin.addEventListener("click", function(event) {
+            event.preventDefault(); // Impede o comportamento padrão de abrir o link
+            window.open(this.href, "_blank"); // Abre o link em uma nova aba
+        });
+    </script>
 </body>
 </html>
