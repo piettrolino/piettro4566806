@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <style> /*aplicar o css*/
+    body{
+        background-color: lightgray; /* fundo da pag*/
+        
+    }
+    #blocomain{ /*chamando a primeira div pelo id*/
+        list-style-type:none;
+        margin:0 auto;
+        padding: 0;
+        background-color: #f1f1f1;
+        text-align: center;
+       
+       
+    }
+    a{ /*configurando todas as ancoras*/
+        display:block;
+        color:black;
+        padding:10px 16px;
+        text-decoration: none;
+    }
+
+    a:hover{ /*adcionando um event, onde passar com o mouse em cima de qualquer ancora ira mudar ofundo e a cor das letras*/
+        background-color: gray;
+        color: white;
+    }
+    h1{  /*editando o titulo*/
+        text-align: center;
+        color: darkslategray;
+        font: bolder;
+    }
+    
+    .atalhos{ /*configurando pela class*/
+        border:solid 2px;
+        margin: 0 auto;
+        border-radius: 3px 3px;
+    }
+    p{ /*editando todos os paragrafos*/
+        font-size: 20px;
+        text-align: justify;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    </style>
+</head>
+<body>
+    <h1 id="titulomain">Página Inicial</h1>
+    <div id="blocomain">
+        <a href = 'mim.html' class="atalhos", id="mim">Sobre Mim</a> 
+        <a href = 'formacoes.html' class="atalhos", id="formacoes">Formações</a>
+        <a href = 'projetos.html' class="atalhos", id="projetos">Projetos</a>
+        <a href = 'contato.html' class="atalhos", id="contato">Contato</a>
+    </div>
+    <div id="blocoparagrafo">
+        <p id="paragrafo1">Você sabia? Comer uma bicicleta no café da manhã pode fazer mal a sua saúde? Médicos e nutricionistas recomendam que ao invés de ingerir uma bicicleta, seja feita refeição mais equilibrada, a base de vitaminas, como frutas por exemplo.</p>
+        <p id="paragrafo2"><p>Qualquer coisa no mundo é comestivel, porém alguns apenas uma vez.</p>
+    </div>
+</body>
+</html>
